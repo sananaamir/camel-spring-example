@@ -5,6 +5,13 @@ import java.util.ArrayList;
 import org.apache.camel.Exchange;
 import org.apache.camel.Processor;
 
+/**
+ * This processor takes in a list of ints and adds them together. The sum is
+ * then sent to the route output.
+ * 
+ * @author Sanan Aamir
+ *
+ */
 public class SumProcessor implements Processor {
 
 	@Override

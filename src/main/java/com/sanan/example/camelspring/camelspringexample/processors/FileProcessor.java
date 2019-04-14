@@ -6,6 +6,13 @@ import java.util.StringTokenizer;
 import org.apache.camel.Exchange;
 import org.apache.camel.Processor;
 
+/**
+ * FileProcessor class converts string to list of ints. Sends the list to the
+ * next processor.
+ * 
+ * @author Sanan Aamir
+ *
+ */
 public class FileProcessor implements Processor {
 
 	@Override
